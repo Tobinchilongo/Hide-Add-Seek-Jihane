@@ -15,6 +15,8 @@ menuCloseButton.addEventListener('click', closeMenu);
 const linkMobile = document.querySelectorAll('.nav_link_mobile');
 linkMobile.forEach((element) => element.addEventListener('click', closeMenu));
 
+const classBegin = document.getElementById('portfolio-section').innerHTML = classBegin.style.color = 'red';
+
 // WINDOWS POPUP
 const project1 = {
   index: 0,

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Portfolio</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-6ZK122QGYS"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-6ZK122QGYS");
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="header_container">
+        <h2 class="logo"><a href="#">Welcome</a></h2>
+        <nav class="navbar">
+          <i class="fa fa-bars mobile-nav" aria-hidden="true"></i>
+          <ul class="desk-nav">
+            <li><a href="#portfolio-section">Portfolio</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="navbar-mobile navbar_hidden">
+          <div class="navbar-mobile-close">
+            <img src="IMG/Icon-Cancel.png" alt="close menu" />
+          </div>
+          <ul class="navbar_mobile_menu">
+            <li>
+              <a class="nav_link_mobile" href="#portfolio-section">Portfolio</a>
+            </li>
+            <li><a class="nav_link_mobile" href="#about-section">About</a></li>
+            <li>
+              <a class="nav_link_mobile" href="#contact-section">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="portfolio-section" class="home-page">
+      <div class="welcome-text">
+        <h1 class="intro">
+          Hey there. I’m Tobin <br /><span>I’m a software<br />developer</span>
+        </h1>
+        <p class="info">
+          I can help you build a product , feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hesitate to contact me.
+        </p>
+      </div>
+      <ul class="icon-list">
+        <li>
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> </a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-medium" aria-hidden="true"></i> </a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-github" aria-hidden="true"></i> </a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-angellist" aria-hidden="true"></i> </a>
+        </li>
+      </ul>
+    </section>
+    <!-- END HOME -->
+    <div class="popup-modal-bg popup-hidden">
+      <div class="popup-data">
+        <div class="project-images">
+          <img id="close-btn" src="IMG/desktopDisabled.png" alt="close popup" />
+        </div>
+        <div class="img">
+          <img class="mobile-image" src="#" alt="image project on mobile" />
+          <img class="desktop-image" src="#" alt="image project on desktop" />
+        </div>
+        <div class="popup-dflex">
+          <div class="bottom-card">
+            <h2>keeping track of hundreds of components</h2>
+            <ul class="language-content"></ul>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              nesciunt repudiandae nulla eius maiores. Molestiae soluta ipsam
+              perspiciatis corrupti, commodi enim aliquid vitae vero harum
+              reprehenderit esse voluptates quod nam.
+            </p>
+          </div>
+          <div class="popup-buttons">
+            <a href="#" class="live-button">See Live</a>
+            <a href="#" class="source-button">See Source</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="work-section">
+      <div class="disable-btn">
+        <img src="IMG/Disabled.png" alt="down-btn" />
+      </div>
+      <div class="section-title">
+        <h2>My Recent Works</h2>
+      </div>
+      <div class="green-line">
+        <img src="IMG/Indicator.png" alt="green line" />
+      </div>
+      <div class="project-container"></div>
+    </section>
+    <section id="about-section" class="about-section">
+      <div class="section-title">
+        <h2 class="about-heading">About Me</h2>
+      </div>
+      <div class="section-paragraph">
+        <p class="about-text">
+          I can help you build a product, feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hesitate to contact me.
+        </p>
+      </div>
+      <div class="project-btn">
+        <button type="button">Get My Resume</button>
+      </div>
+    </section>
+    <section class="about">
+      <ul class="d-flex">
+        <li class="tech-list">
+          <img src="./IMG/img/icon-languages.svg" alt="#" />
+          <div class="about-me-btn">
+            <h2 class="lang">Language</h2>
+            <ul class="tec-btns">
+              <li class="common">Javascript</li>
+              <li class="common">Ruby</li>
+              <li class="common">Html</li>
+              <li class="common">Css</li>
+            </ul>
+          </div>
+        </li>
+        <li class="tech-list">
+          <img src="./IMG/img/icon-frameworks.svg" alt="#" />
+          <div class="about-me-btn">
+            <h2 class="lang">Frameworks</h2>
+            <ul class="tec-btns">
+              <li class="common">Bootstrap</li>
+              <li class="common">Ruby on rails</li>
+              <li class="common">RSpec</li>
+              <li class="common">Capybara</li>
+              <li class="common">Selenium</li>
+            </ul>
+          </div>
+        </li>
+        <li class="tech-list">
+          <img src="./IMG/img/icon-skills.svg" alt="#" />
+          <div class="about-me-btn">
+            <h2 class="lang">Skills</h2>
+            <ul class="tec-btns">
+              <li class="common">Codekit</li>
+              <li class="common">GitHub</li>
+              <li class="common">Codepen</li>
+              <li class="common">Gitlab</li>
+              <li class="common">Terminal</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section id="contact-section" class="footer-nav">
+      <div class="footer-grid">
+        <h2 class="form-title">
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </h2>
+        <form id="errorMessage"
+          action="https://formspree.io/f/xyyoglkw"
+          method="post"
+          class="message-form"
+        >
+          <input
+            type="text"
+            name="firstname"
+            placeholder=" First Name"
+            maxlength="30"
+            required
+            class="form-control input1"
+          />
+          <input
+            type="text"
+            name="lastname"
+            placeholder="Last Name"
+            maxlength="30"
+            required
+            class="form-control input2"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            maxlength="30"
+            required
+            class="form-control input3"
+          />
+          <textarea
+            name="message"
+            placeholder="Enter message!"
+            rows="5"
+            maxlength="500"
+            required
+            class="form-control input4"
+          ></textarea>
+          <div id="email-message" class="message-info error">email is invalid don't remove uppercase</div>
+          <button type="submit" class="btn-form input5">Get in touch</button>
+        </form>
+      </div>
+    </section>
+    <hr />
+    <footer>
+      <ul class="icon-list">
+        <li>
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> </a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-medium" aria-hidden="true"></i> </a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-github" aria-hidden="true"></i> </a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-angellist" aria-hidden="true"></i> </a>
+        </li>
+      </ul>
+      <h3 class="email-title">
+        <a href="tobinchilongojnr@gmail.com">tobinchilongojnr@gmail.com</a>
+      </h3>
+    </footer>
+
+    <script src="https://use.fontawesome.com/1226aa0088.js"></script>
+    <script src="portfolio.js"></script>
+    <script src="storage.js"></script>
+  </body>
+</html>
